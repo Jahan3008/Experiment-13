@@ -17,7 +17,7 @@ saved and type “pytest test_sumofdig.py” and run it.
 Step 5: Stop the program. 
 # Program:
 ```python
-def sumOfDigits(n): 
+def sumOfDigits(n):  
     sum = 0 
     while (n != 0): 
         sum = sum + int(n % 10) 
